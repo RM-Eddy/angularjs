@@ -1,0 +1,35 @@
+
+<div class="container">
+    <div class="form">
+        <h1>Formulaire</h1>
+        
+        <form action="">
+            <input type="text" placeholder="NOM" id="" [(ngModel)]="nom" [ngModelOptions]="{standalone: true}">
+            <input type="text" placeholder="PRENOM" id="" [(ngModel)]="prenom" [ngModelOptions]="{standalone: true}">
+            <select name="" id=""  [(ngModel)]="mention" [ngModelOptions]="{standalone: true}">
+                <option value="">Mention</option>
+                <option value="DASI">DASI</option>
+                <option value="AES">AES</option>
+                <option value="RPM">RPM</option>
+            </select>
+            <div class="box">
+                <div>
+                    <label for="masc">Masculin</label>
+                    <input type="radio" id="masc" name="ss" [(ngModel)]="sexes" value="Masculin">
+                </div>
+                <div>
+                    <label for="fem">Feminin</label>
+                    <input type="radio" id="fem" name="ss"  [(ngModel)]="sexes" value="Feminin">
+                </div>
+            </div>
+            <div class="btn">
+                <button (click)="ajouter()">Enregistrer</button>
+                <button (click)="reset()">Annuler</button>
+            </div>
+            <table>
+                
+            </table>
+
+        </form>
+    </div>
+</div>

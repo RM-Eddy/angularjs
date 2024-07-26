@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestEtud</title>
+    <link rel="stylesheet" href="gest-etud.component.css">
+</head>
+<body>
+
+    <div class="contoner">
+        <div class="titre">
+            <h1> GESTION DES ETUDIANTS </h1>
+        </div>        
+        <div class="frame">        
+
+            <div class="frame1">
+                <div class="titreform1">
+                    <h1>Ajout un Etudiant</h1>
+                </div>
+                <div class="conten-form1">
+                    <div class="conten-zone">
+                        <div><input type="text"></div>
+                        <div class="zone">
+                            <label for="nom">Nom : </label>
+                            <input type="text" placeholder="Saisir un Nom !">
+                        </div>
+                        <div class="zone">
+                            <label for="prennom">Prenom : </label>
+                            <input type="text" placeholder="Saisir un Prenom !">
+                        </div>
+                        <div class="zone">
+                            <label for="matricule">Matricule : </label>
+                            <input type="text" placeholder="Saisir un Matricule !">
+                        </div>
+                        <div class="zone">
+                            <label for="adresse">Adresse : </label>
+                            <input type="text" placeholder="Saisir un Adresse !">
+                        </div>
+                        <div class="zone">
+                            <label for="tel">Téléphone : </label>
+                            <input type="text" placeholder="Saisir un Téléphone !">
+                        </div>
+                    </div>
+                    <div class="sexe">
+                        <label for="s">SEXE : </label>
+                    </div>
+                    <div class="box">
+                        <div class="box1">
+                            <label for="m">Masculin</label>
+                            <input type="radio" id="m" name="sexe">
+                            <!-- valeur 'for' sy 'id' tkony hitovy eo amn typeradio, si mi_clic nom dia mi_signé  -->
+                        </div>
+                        <div class="box2">
+                            <label for="f">Feminin</label>
+                            <input type="radio" id="f" name="sexe">
+                            <!-- ampitoviana ny valeur eo amn 'name' mba tsy ho signé daholo izay clicke_na -->
+                        </div>
+                    </div>
+                    <div class="select">
+                        <div>
+                            <label for="parcour">Parcous : </label>
+                            <select name="parcours" id="parcours">
+                                <option value="vide">Choisir Mention</option>
+                                <option value="DA2I">DA2I</option>
+                                <option value="AES">AES</option>
+                                <option value="RPM">RPM</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="niveau">Niveau : </label>
+                            <select name="niveau" id="niveau">
+                                <option value="vide">Choisir Niveau</option>
+                                <option value="L1">L1</option>
+                                <option value="L2">L2</option>
+                                <option value="L3">L3</option>
+                                <option value="M1">M1</option>
+                                <option value="M2">M2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div>
+                            <button id="ajout">Enregistrer</button>
+                        </div>
+                        <div>
+                            <button id="annuler">Annuler</button>
+                        </div>
+                    </div>                    
+                </div>
+                                           
+            </div>
+            <div class="frame2">
+                
+                <div class="titreliste">
+                    <h1>LISTES DES ETUDIANTS</h1>
+                </div>               
+
+                <div class="table">
+                    <table>                
+                        <thead>
+                            <tr>
+                                <th>NOM</th>
+                                <th>PRENOM</th>
+                                <th>MATRICULE</th>
+                                <th>ADRESSE</th>
+                                <th>SEXE</th>
+                                <th>TELEPHONE</th>
+                                <th>PARCOURS</th>
+                                <th>NIVEAU</th>
+                                <th>ACTION</th>
+                            </tr>                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>22</td>
+                                <td>33</td>
+                                <td>44</td>
+                                <td>55</td>
+                                <td>66</td>
+                                <td>77</td>
+                                <td>88</td>
+                                <td>99</td>
+                            </tr>
+                        </tbody>                
+                    </table>                    
+                </div>
+
+                <div class="info">
+                    <label for="nbres">Nombre des Etudiants : </label>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

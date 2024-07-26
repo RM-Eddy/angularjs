@@ -1,0 +1,27 @@
+    /* 1rem = 16px */
+    .form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 0.4rem;
+        padding: 2rem;
+        width: max-content;
+        box-shadow: 0px 8px 21px black;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 20rem;
+    }
+    
+    .box{
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .btn{
+        display: flex;
+        gap: 2rem;
+    }

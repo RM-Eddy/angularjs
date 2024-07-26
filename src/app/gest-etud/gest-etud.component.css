@@ -1,0 +1,166 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.contoner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titre{
+    width: 100%;
+    height: 3rem;
+    margin-right: 0rem;
+    color: white;
+    background-color: rgb(3, 77, 57);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+}
+.frame{
+    background-image: url('fond4.jpg');
+    background-image: '';
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: rgb(221, 218, 218);
+    
+}
+.frame1{
+    background-image: url('plage\ soleil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background-color: rgb(38, 95, 52); */
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    border: 1px solid rgb(9, 9, 9);
+    box-shadow: 1px 8px 21px black;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: rgb(5, 138, 34);
+    font-weight: bold;
+}
+.frame1 h1{
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 138, 34);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.frame2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    
+}
+.titreliste{
+    color: rgb(134, 9, 9);
+    display: flex;
+    justify-content: center;
+    
+}
+.zone{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 0rem;
+}
+.box{
+    margin-top: 0rem;
+    margin-right: 1rem;
+    display: flex;
+    gap: 2rem;
+    padding-left: 3rem;
+}
+.select{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.select label{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
+.sexe{
+    margin-top: 1rem;
+    color: yellow;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.box{
+    color: yellow;
+    font-weight: bold;
+}
+.box1:hover{
+    color: blue;
+}
+.box2:hover{
+    color: rgb(233, 19, 169);
+}
+.btn{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(91, 92, 89);
+    box-shadow: 2px 8px 21px black;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+    
+}
+#ajout:hover{
+    background-color: chartreuse;
+    color: blue;
+    font-size: 1.5rem;
+}
+#annuler:hover{
+    background-color: rgb(241, 110, 9);
+    color: black;
+    font-size: 1.5rem;
+}
+.table {
+    display: flex;
+    background-color: rgb(128, 122, 122);
+    border: 2px solid  rgb(10, 10, 10);
+}
+th{
+    background-color: rgb(128, 122, 122);
+    border: 2px solid  rgb(10, 10, 10);
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+td{
+    background-color: rgb(236, 220, 220);
+    border: 2px solid  rgb(10, 10, 10);
+    justify-content: center;
+}
+.info{
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
