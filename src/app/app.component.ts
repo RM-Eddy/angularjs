@@ -10,5 +10,5 @@ import { AjoutComponent } from './exemple/ajout/ajout.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'mon-projet-hello';
+  title = 'mon-projet-hello-test-git';
 }
